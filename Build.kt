@@ -18,7 +18,7 @@ val p = javaProject {
         applicationId = "codepath.demos.helloworlddemo"
     }
 
-    productFlavor("dev") {
+    productFlavor("debug") {
     }
 
     dependencies {
