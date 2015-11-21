@@ -10,11 +10,15 @@ android {
         targetSdkVersion 23
     }
 
-    buildTypes {
-        debug {
-
+    productFlavors {
+        pro {
         }
 
+        free {
+        }
+    }
+
+    buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
