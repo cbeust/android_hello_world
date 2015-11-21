@@ -2,7 +2,7 @@
 <resources>
 
     <string name="app_name">Codepath HelloWorld</string>
-    <string name="hello_world">Hello world! (pro big)</string>
+    <string name="hello_world">pro</string>
     <string name="menu_settings">Settings</string>
 
 </resources>
