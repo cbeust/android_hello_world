@@ -18,7 +18,16 @@ val p = javaProject {
         applicationId = "codepath.demos.helloworlddemo"
     }
 
-    productFlavor("debug") {
+    productFlavor("pro") {
+    }
+
+    productFlavor("free") {
+    }
+
+    buildType("debug") {
+    }
+
+    buildType("release") {
     }
 
     dependencies {
